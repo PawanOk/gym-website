@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.trainer-track {
+  display: flex;
+  width: max-content;
+  animation: trainerMove 15s linear infinite;
+}
+
+.trainer-group {
+  flex-shrink: 0;
+}
+
+@keyframes trainerMove {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
