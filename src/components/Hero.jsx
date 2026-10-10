@@ -51,9 +51,11 @@ const Hero = () => {
                    Train harder, get stronger and transform your body
                     with your professional trainers and modern facilities 
                 </p>
+                <div className='mt-5'>
                 <Link
                  to='/Contact'
                 className='mt-8 rounded-md bg-green-500 px-8 py-4 font-bold uppercase tracking-wide text-black transition duration-300 hover:bg-green-400 cursor-pointer'>Join Now</Link>
+                </div>
             </div>
             {/* Right Images*/}
             <div className='flex w-full lg:w-1/2 justify-center'>
